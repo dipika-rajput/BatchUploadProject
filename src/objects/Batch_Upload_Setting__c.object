@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Destination_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination Field</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Destination_Object__c</fullName>
+        <description>this is used for selecting Destination object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>this is used for selecting Destination object</inlineHelpText>
+        <label>Destination Object</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Field__c</fullName>
+        <description>This is used for selecting source field from batch upload</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is used for selecting source field from batch upload object</inlineHelpText>
+        <label>Source Field</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Batch Upload Setting</label>
+    <visibility>Public</visibility>
+</CustomObject>
